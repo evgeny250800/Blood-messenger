@@ -1,0 +1,13 @@
+{
+  "expo": {
+    "name": "BLOOD",
+    "slug": "blood-app",
+    "version": "1.0.0",
+    "android": {
+      "package": "com.evgeny250800.blood",
+      "adaptiveIcon": {
+        "backgroundColor": "#0e1621"
+      }
+    }
+  }
+}
