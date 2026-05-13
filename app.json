@@ -1,8 +1,6 @@
 {
   "expo": {
     "name": "Blood",
-    "slug": "blood-messenger",
-    "version": "1.0.0",
     "android": {
       "package": "com.zekih44.bloodmessenger"
     }
