@@ -1,13 +1,31 @@
 {
   "expo": {
-    "name": "BLOOD",
-    "slug": "blood-app",
+    "name": "Blood",
+    "slug": "blood-messenger",
     "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
     "android": {
-      "package": "com.evgeny250800.blood",
       "adaptiveIcon": {
-        "backgroundColor": "#0e1621"
-      }
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.zekih44.bloodmessenger"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
     }
   }
 }
