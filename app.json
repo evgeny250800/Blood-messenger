@@ -5,6 +5,11 @@
     "version": "1.0.0",
     "android": {
       "package": "com.zekih44.bloodmessenger"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d6fe4534-1f97-43ed-92c1-3cb658d56100"
+      }
     }
   }
 }
