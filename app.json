@@ -4,10 +4,7 @@
     "slug": "blood-messenger",
     "version": "1.0.0",
     "android": {
-      "package": "com.zekih44.bloodmessenger",
-      "adaptiveIcon": {
-        "backgroundColor": "#ffffff"
-      }
+      "package": "com.zekih44.bloodmessenger"
     }
   }
 }
