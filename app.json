@@ -1,14 +1,30 @@
 {
   "expo": {
-    "name": "Blood",
+    "name": "Blood Messenger",
     "slug": "blood-messenger",
     "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
     "android": {
-      "package": "com.zekih44.bloodmessenger"
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "zekih44.bloodmessenger"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
     },
     "extra": {
       "eas": {
-        "projectId": "d6fe4534-1f97-43ed-92c1-3cb658d56100"
+        "projectId": "d6fe4534-7935-46f9-9060-68194458f276"
       }
     }
   }
